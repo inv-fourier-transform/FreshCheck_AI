@@ -1,6 +1,6 @@
 # 🥭 FreshCheck AI – Fresh vs Spoiled Fruit Classifier
 
-FreshHarvest is a deep learning–based image classification project that predicts whether a fruit is **fresh** or **spoiled**.  
+FreshCheck AI is a deep learning–based image classification project that predicts whether a fruit is **fresh** or **spoiled**.  
 The model is trained using **transfer learning with ResNet-50** and deployed as an interactive **Streamlit web application**.
 
 ---
@@ -23,7 +23,7 @@ The model is trained using **transfer learning with ResNet-50** and deployed as 
 ![Home Screen](artifacts/screenshots/home_screen.jpg)
 
 ### ✅ Fresh vs Spoiled Result
-![Result Screen](artifacts/screenshots/prediction_screen.jpg)
+![Result Screen](artifacts/screenshots/prediction_screen1.jpg)
 ![Result Screen](artifacts/screenshots/prediction_screen2.jpg)
 ---
 
