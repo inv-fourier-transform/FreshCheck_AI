@@ -34,11 +34,11 @@ The project emphasizes <b>data integrity, correct evaluation, and production-rea
 
 
 ### 🖥️ Streamlit Application Interface
-![Home Screen](artifacts/screenshots/home_screen.jpg)
+![Home Screen](streamlit_app/artifacts/screenshots/home_screen.jpg)
 
 ### ✅ Fresh vs Spoiled Result
-![Result Screen](artifacts/screenshots/prediction_screen1.jpg)
-![Result Screen](artifacts/screenshots/prediction_screen2.jpg)
+![Result Screen](streamlit_app/artifacts/screenshots/prediction_screen1.jpg)
+![Result Screen](streamlit_app/artifacts/screenshots/prediction_screen2.jpg)
 
 ---
 
