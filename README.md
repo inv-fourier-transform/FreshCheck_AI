@@ -57,21 +57,25 @@ The project emphasizes <b>data integrity, correct evaluation, and production-rea
 ## 📂 Project Structure
 
 ```
-streamlit_app/
+Fruits_Freshness_Classifier/
 │
-├── artifacts/
-│ ├── harvest_classifier_notebook.ipynb
-│ └── harvest_classifier_resnet50.ipynb
-│
-├── models/
-│ └── fruits_classifier_resnet50_tl.pth
-│
-├── app.py
-├── app_v2.py # ✅ Main Streamlit application (use this)
-├── model_definition.py # Model architecture definition
-├── model_helper.py # Model loading & inference utilities
-├── requirements.txt
-└── README.md
+├── README.md          
+├── .gitignore
+├── .gitignore
+└──streamlit_app/
+    │
+    ├── artifacts/
+    ├── harvest_classifier_notebook.ipynb
+    └── harvest_classifier_resnet50.ipynb
+    │
+    ├── models/
+       └── fruits_classifier_resnet50_tl.pth
+    ├── app.py
+    ├── app_v2.py # ✅ Main Streamlit application (use this)
+    ├── model_definition.py # Model architecture definition
+    ├── model_helper.py # Model loading & inference utilities
+    ├── requirements.txt
+
 ```
 
 ---
