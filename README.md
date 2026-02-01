@@ -61,7 +61,6 @@ Fruits_Freshness_Classifier/
 │
 ├── README.md          
 ├── .gitignore
-├── .gitignore
 └──streamlit_app/
     │
     ├── artifacts/
