@@ -189,4 +189,4 @@ This project is licensed under the **MIT License**.
 
 ---
 
-Built with a focus on **correctness**, **clarity**, and **real-world deployment**.
+*Built with a focus on **correctness**, **clarity**, and **real-world deployment**.*
