@@ -1,3 +1,5 @@
+import os
+from pathlib import Path
 from PIL import Image
 import torch
 from torchvision import transforms
@@ -7,6 +9,17 @@ from model_definition import build_model
 # Device configuration
 # --------------------------------------------------
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# --------------------------------------------------
+# Get model path such that it works both locally and on Streamlit Cloud
+# --------------------------------------------------
+# Get the directory where this script is located
+SCRIPT_DIR = Path(__file__).parent
+MODEL_PATH = SCRIPT_DIR / "models" / "fruits_classifier_resent50_tl.pth"
+
+# Alternative using os.path:
+# SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# MODEL_PATH = os.path.join(SCRIPT_DIR, "models", "fruits_classifier_resent50_tl.pth")
 
 # --------------------------------------------------
 # Cached objects
@@ -25,7 +38,7 @@ def _load_model():
     trained_model.to(DEVICE)
 
     checkpoint = torch.load(
-        "models/fruits_classifier_resent50_tl.pth",
+        MODEL_PATH,  # Use the absolute path
         map_location=DEVICE
     )
 
